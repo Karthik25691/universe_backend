@@ -45,7 +45,7 @@ _ENGINE_KWARGS = dict(
     max_overflow=10,
     connect_args={
         "connect_timeout": 10,
-        "sslmode": "require",   # seconds before giving up on a new connection
+        "sslmode": "disable",   # local dev: disable SSL; change to "require" for production
     },
 )
 
